@@ -28,3 +28,17 @@ columns:
 
     created_at:
         label: rainlab.user::lang.user.created_at
+
+    introducer:
+        label: Introducer
+        searchable: true
+
+    country_id:
+        label: rainlab.location::lang.country.label
+        searchable: true
+
+    payment:
+        label: Payment
+
+    coupon:
+        label: Coupon Code
