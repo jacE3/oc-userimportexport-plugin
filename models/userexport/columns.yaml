@@ -8,11 +8,6 @@ columns:
         label: Id
         invisible: true
 
-    username:
-        label: rainlab.user::lang.user.username
-        searchable: true
-        invisible: true
-
     name:
         label: rainlab.user::lang.user.name
         searchable: true
@@ -26,15 +21,21 @@ columns:
         label: rainlab.user::lang.user.email
         searchable: true
 
+    phone:
+        label: Phone
+
+    mobile:
+        label: Mobile
+
     created_at:
         label: rainlab.user::lang.user.created_at
 
     introducer:
-        label: Introducer
+        label: Introducer Code
         searchable: true
 
     country_id:
-        label: rainlab.location::lang.country.label
+        label: Location
         searchable: true
 
     payment:
